@@ -1,13 +1,11 @@
 /**
  * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
+ * Copyright 2021-2022 aldrinaratia
  * Licensed under  ()
  */
 /**
  * Owl carousel
  * @version 2.1.6
- * @author Bartosz Wojciechowski
- * @author David Deutsch
  * @license The MIT License (MIT)
  * @todo Lazy Load Icon
  * @todo prevent animationend bubling
@@ -1696,13 +1694,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * AutoRefresh Plugin
- * @version 2.1.0
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
 ;(function($, window, document, undefined) {
 
   /**
@@ -1992,7 +1984,6 @@
 
     // set default options
     this._core.options = $.extend({}, AutoHeight.Defaults, this._core.options);
-
     // register event handlers
     this._core.$element.on(this._handlers);
   };
@@ -2044,9 +2035,6 @@
 
 /**
  * Video Plugin
- * @version 2.1.0
- * @author Bartosz Wojciechowski
- * @author David Deutsch
  * @license The MIT License (MIT)
  */
 ;(function($, window, document, undefined) {
@@ -2362,13 +2350,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Animate Plugin
- * @version 2.1.0
- * @author Bartosz Wojciechowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
 ;(function($, window, document, undefined) {
 
   /**
@@ -2484,14 +2466,8 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Autoplay Plugin
- * @version 2.1.0
- * @author Bartosz Wojciechowski
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
+ 
 ;(function($, window, document, undefined) {
 
   /**
@@ -2684,13 +2660,8 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Navigation Plugin
- * @version 2.1.0
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
+ 
 ;(function($, window, document, undefined) {
   'use strict';
 
@@ -3067,13 +3038,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Hash Plugin
- * @version 2.1.0
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
 ;(function($, window, document, undefined) {
   'use strict';
 
@@ -3190,15 +3155,7 @@
 
 })(window.Zepto || window.jQuery, window, document);
 
-/**
- * Support Plugin
- *
- * @version 2.1.0
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
+ 
 ;(function($, window, document, undefined) {
 
   var style = $('<support>').get(0).style,
